@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 231, 247);
+    overflow-x: hidden;
+}
+
+.game-container{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    
+}
+.gameBoard{
+    border: 2px solid black;
+    margin-top: 2rem;
+    background-color: #fff;
+}
+.title{
+    background-color: #414141;
+    color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.score{
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+.resetbtn{
+    padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #414141;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  margin-bottom: 4rem;
+  }

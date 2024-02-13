@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh; 
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: wheat;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    align-items: center;
+   
+}
+.box{
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px;
+    margin-left: 200px;
+    width: 80%;
+    gap: 20px;
+}
+.head1{
+    font-size: 7rem;
+    color: white;
+}
+.head2{
+    font-size: 7rem;
+    color: rgb(98, 245, 98);
+    border-bottom: 15px solid green;
+    margin-bottom: 15px;
+}
+.Btn{
+    /* height: 60px; */
+    padding: 15px 20px;
+    font-size: 3rem;
+    border-radius: 5px;
+    background-color: rgba(7, 125, 7, 0.694);
+    color: white;
+    font-weight: 700;
+}
+.Btn:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.input-Box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 40%;
+    font-size: 2.5rem;
+    background-color: #fff;
+    color: black;
+    margin-bottom: 2rem;
+    border : none;
+    border-radius: 12px;
+}
+.input-Box img{
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+.input-Box .pass-Input{
+    height: 100px;
+    font-size: 2.5rem;
+    padding: 15px;
+    border: none;
+    outline: none;
+}
+
