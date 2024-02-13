@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    /* height: 300px;
+    width: 400px; */
+    /* border: 2px solid white; */
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgb(248, 243, 243), 0 6px 6px rgb(243, 241, 241);
+    padding: 2rem;
+    gap: 2rem;
+    border-radius: 22px;
+}
+.card input{
+    padding: 2.2rem;
+    border: 0;
+    outline: none;
+    font-size: 2.2rem;
+    border-bottom: 2px solid #212121;
+    box-shadow: 0 2px 4px black;
+    border-radius: 12px;
+}
+.card h1{
+    text-align: start;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+button{
+    padding: 2.2rem;
+    font-size: 2.1rem;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background-color: rgb(0, 0, 255,0.8);
+    color: white;
+    border-bottom: 2rem;
+}
+.image{
+    border: 2px solid black;
+    margin: auto;
+    /* border-radius: 15px; */
+    overflow: hidden; 
+}
+.QRimage{
+    height: 25rem;
+    width: 25rem;
+    /* object-fit: cover; */
+    background-size: cover;
+    overflow: hidden;
+    /* object-position: center; */
+    
+}
