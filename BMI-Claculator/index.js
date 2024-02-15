@@ -28,9 +28,6 @@ form.addEventListener("submit",function (e){
 });
 
 function resetValues() {
-    // Reset input fields
     document.getElementById("height").value = "";
     document.getElementById("weight").value = "";
-
-    // Reset result display
     document.getElementById("results").innerHTML = "Result: ";}
