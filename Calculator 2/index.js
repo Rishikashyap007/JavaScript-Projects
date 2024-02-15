@@ -14,25 +14,3 @@ function clearResult(){
     display.value = '';
     console.log("clear called");
 }
-
-// let resultField = document.getElementById('Display');
-// let currentInput = '';
-
-// function appendToDisplay(value) {
-//     currentInput += value;
-//     resultField.value = currentInput;
-// }
-
-// function calculateResult() {
-//     try {
-//         currentInput = eval(currentInput).toString();
-//         resultField.value = currentInput;
-//     } catch (error) {
-//         resultField.value = 'Error';
-//     }
-// }
-
-// function clearResult() {
-//     currentInput = '';
-//     resultField.value = '';
-// }
